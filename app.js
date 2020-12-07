@@ -3,17 +3,27 @@ const ans=document.getElementById("quesAns");
 const btnSubmit=document.getElementById("btnSubmit");
 const output=document.getElementById("check");
 const btndelete=document.getElementById("btnDel")
+const dataQuesAns=[];
 
 btnSubmit.addEventListener('click',function(){createQAFunc(ques,ans)});
+btnSubmit.addEventListener('click',function(){saveDataFunc(ques,ans)});
+btndelete.addEventListener('click',deleteAllQAFunc);
 
-function createQAFunc(a,b){
+function createQAFunc(a,b){   
 const question = a.value;
 const answer = b.value;
-localStorage.setItem(question,answer);
-output.innerHTML+=`<br><p id="output"><hr>Question: ${question}<br> Answer:${answer}<br><hr></p>`;   
+output.innerHTML+=`<p><hr>Question: ${question}<br> Answer:${answer}<hr></p>`; 
 }
 
-btndelete.addEventListener('click',deleteAllQAFunc);
+function saveDataFunc(a,b){  
+const question = a.value;
+const answer = b.value;
+const dataDescription="Question and the Answer";
+dataQuesAns.push([{question,answer}]);
+localStorage.setItem(dataDescription,JSON.stringify(dataQuesAns));
+}
+
 function deleteAllQAFunc(){
 output.remove(); 
+location.reload();
 }
