@@ -1,2 +1,2 @@
 Quiz Web Application 
-HTML,CSS,JS
+HTML,CSS,JavaScript
