@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Quiz</title>
-</head>
-<body>
-  <fieldset>
-      <legend>Insert Question</legend>
-    <!--Set the question-->
-      <input id="ques"  type="text" placeholder="Enter Question...">
-    <!--Set the answer for the question-->
-      <input id="quesAns" type="text" placeholder="Enter Answer...">
-      <button type="button" id="btnSubmit">Submit</button>
-      <button id="btnDel">Delete All</button>
-  </fieldset>
-  <fieldset>
-      <legend>Question & Answer</legend>
-     <p id="check"></p>
-  </fieldset>
-    <script src="app.js">  </script>   
-   
-
-
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Create Quiz</title>
+	</head>
+	<body>
+		<fieldset>
+			<legend>Insert Question</legend>
+			<form id="add-question-form">
+				<!--Set the question-->
+				<input type="text" name="ques" placeholder="Enter Question..." />
+				<!--Set the answer for the question-->
+				<input type="text" name="ans" placeholder="Enter Answer..." />
+				<button type="submit" id="btnSubmit">Submit</button>
+				<button id="btnDel">Delete All</button>
+			</form>
+		</fieldset>
+		<fieldset>
+			<legend>Question & Answer</legend>
+			<p id="check"></p>
+		</fieldset>
+		<script src="app.js"></script>
+	</body>
 </html>
