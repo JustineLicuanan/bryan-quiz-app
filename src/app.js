@@ -9,6 +9,15 @@ addQuestionForm.addEventListener('submit', function (event) {
 	// Prevent unwanted page refresh
 	event.preventDefault();
 
+	if (!addQuestionForm.ques.value.trim() || !addQuestionForm.ans.value.trim()) {
+		// Delete input fields white spaces
+		addQuestionForm.ques.value = '';
+		addQuestionForm.ans.value = '';
+
+		// Show an alert message
+		return alert('All fields are required!');
+	}
+
 	saveDataFunc(addQuestionForm.ques.value, addQuestionForm.ans.value);
 	createQAFunc(addQuestionForm.ques.value, addQuestionForm.ans.value);
 
@@ -34,7 +43,22 @@ function saveDataFunc(question, answer) {
 
 // Output created data to the DOM
 function createQAFunc(question, answer) {
-	output.innerHTML += `<p><hr> Question: ${question} <br> Answer: ${answer}<hr></p>`;
+	const mainParagraph = document.createElement('p');
+	const hrTop = document.createElement('hr');
+	const hrBot = document.createElement('hr');
+	const questionParagraph = document.createElement('p');
+	const answerParagraph = document.createElement('p');
+
+	// Set text content of QnA elements
+	questionParagraph.textContent = `Question: ${question}`;
+	answerParagraph.textContent = `Answer: ${answer}`;
+
+	// Append child elements to their parent
+	mainParagraph.appendChild(hrTop);
+	mainParagraph.appendChild(questionParagraph);
+	mainParagraph.appendChild(answerParagraph);
+	mainParagraph.appendChild(hrBot);
+	output.appendChild(mainParagraph);
 }
 
 // Delete all data in the DOM
