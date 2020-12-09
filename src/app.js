@@ -4,8 +4,16 @@ const btndelete = document.getElementById('btnDel');
 
 // State(s)
 const localQuestions = [];
+//Get item localQuestion=[] then display to DOM
+addEventListener('DOMContentLoaded',()=>{
+const storedLocalQuestion=JSON.parse(localStorage.getItem('questions'));
+storedLocalQuestion.forEach((storedLocalQuestions) => {
+	createQAFunc(storedLocalQuestions.question,storedLocalQuestions.answer);
+	saveDataFunc(storedLocalQuestions.question,storedLocalQuestions.answer);
+})
+});
 
-addQuestionForm.addEventListener('submit', function (event) {
+addQuestionForm.addEventListener('submit',(event) =>{
 	// Prevent unwanted page refresh
 	event.preventDefault();
 
@@ -26,7 +34,7 @@ addQuestionForm.addEventListener('submit', function (event) {
 	addQuestionForm.ans.value = '';
 });
 
-btndelete.addEventListener('click', function () {
+btndelete.addEventListener('click', ()=> {
 	deleteAllQAFunc();
 });
 
@@ -61,7 +69,10 @@ function createQAFunc(question, answer) {
 	output.appendChild(mainParagraph);
 }
 
+
+
 // Delete all data in the DOM
 function deleteAllQAFunc() {
 	output.innerHTML = '';
+	localStorage.clear();
 }

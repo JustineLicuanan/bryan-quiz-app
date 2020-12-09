@@ -2,22 +2,13 @@
 
 ### index.html:
 
-- Wrap inputs to a form element.
-- Format HTML code using Prettier.
+- Delete button pinalit ko sabi mo e
+
 
 ### app.js:
 
-- Change add question event from click to form submit.
-- Merge questions, and answers data to one array.
-
-### readme.txt
-
-- Rename to README.md
-
-### debug.log
-
-- Delete debug.log
+- nag seseyb na kahit i refresh hehez
 
 ### CHANGELOG.md | NEW
 
-- Create CHANGELOG.md
+- Create CHANGELOG.md (tagalog ver.)
