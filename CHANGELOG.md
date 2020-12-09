@@ -1,14 +1,33 @@
+## v0.3.0
+### index.html:
+
+- Replace HTML line 18 to 17.
+
+### app.js:
+
+- Displays data from Local storage.
+
+
 ## v0.2.0
 
 ### index.html:
 
-- Delete button pinalit ko sabi mo e
-
+- Wrap inputs to a form element.
+- Format HTML code using Prettier.
 
 ### app.js:
 
-- nag seseyb na kahit i refresh hehez
+- Change add question event from click to form submit.
+- Merge questions, and answers data to one array.
+
+### readme.txt
+
+- Rename to README.md
+
+### debug.log
+
+- Delete debug.log
 
 ### CHANGELOG.md | NEW
 
-- Create CHANGELOG.md (tagalog ver.)
+- Create CHANGELOG.md
