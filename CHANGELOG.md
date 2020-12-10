@@ -27,9 +27,6 @@
 
 - Displays data from Local storage.
 
-### register.html | NEW
-
-- Create register.html
 
 ## v0.2.0
 
