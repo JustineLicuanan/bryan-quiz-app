@@ -16,6 +16,14 @@ a{
   height:60px;
   width:100%;
 }
+#signUp-btn{
+  margin-top:4px;
+  position: absolute;
+  right:0px;
+  border-style: none;
+  background-color: green;
+  color:yellow;
+}
 
 #teacher-btn{
   position: absolute;
