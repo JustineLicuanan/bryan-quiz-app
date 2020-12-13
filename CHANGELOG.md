@@ -1,3 +1,14 @@
+## v0.5.0
+
+### index.html 
+
+- rename login.html to index.html
+
+### createQuestion.html | NEW
+
+- rename index.html(december 12 2020) to createQuestion.html
+
+
 ## v0.4.1
 
 ### login.html | NEW
