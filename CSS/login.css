@@ -4,6 +4,7 @@
 }
 a{
   color: yellow;
+  text-decoration: none;
 }
 
 .navBar{
@@ -17,12 +18,18 @@ a{
   width:100%;
 }
 #signUp-btn{
-  margin-top:4px;
+  margin-top:15px;
+  font-size: 20px;
+  font-weight: bold;
   position: absolute;
-  right:0px;
+  right:5px;
   border-style: none;
   background-color: green;
+  font-family: cursive;
   color:yellow;
+}
+#signUp-btn:hover{
+  background-color: darkgreen;
 }
 
 #teacher-btn{
@@ -34,6 +41,7 @@ a{
   color:yellow;
   padding: 10px;
   background-color: green;
+  font-family: cursive;
   font-size: 30px;
 }
 
@@ -46,6 +54,7 @@ a{
   color:yellow;
   padding: 10px;
   background-color: green;
+  font-family: cursive;
   font-size: 30px;
 }
 
@@ -55,10 +64,18 @@ a{
 
 .heading-quizsu{
   margin-top: 100px;
-  margin-bottom: 20px;
   display: flex;
   justify-content: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-family: cursive;
+  color:darkgreen;
+}
+.quizsuTagline{
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  font-family: cursive;
   color:darkgreen;
 }
 .flipCards{
@@ -152,4 +169,12 @@ a{
     background-color:green;
     height:120px;
     width: 100%;
+  }
+  .copyright{
+    color:white;   
+    font-size: 15px;
+    font-weight: bold;
+    display: Flex;   
+    justify-content: center;
+    margin-top: 50px;
   }
