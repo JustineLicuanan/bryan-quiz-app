@@ -2,7 +2,22 @@
   background-color: lightgray
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-a{
+.logo{
+  position: absolute;
+  border-style: solid;
+  background-color: yellow;
+  top:0px;
+  left: 5px;
+  padding: 5px;
+  border-radius: 20px;
+  color:green;
+  font-size: 37px;
+}
+.logo:hover{
+  background-color: green;
+  color: yellow;
+}
+.register-link{
   color: yellow;
   text-decoration: none;
 }
@@ -63,11 +78,16 @@ a{
 }
 
 .heading-quizsu{
-  margin-top: 100px;
+  margin-top: 80px;
   display: flex;
   justify-content: center;
   font-weight: bolder;
   font-family: cursive;
+  color:darkgreen;
+}
+#q-icon{
+  font-size: 28px;
+  font-weight: bolder;
   color:darkgreen;
 }
 .quizsuTagline{
@@ -177,4 +197,38 @@ a{
     display: Flex;   
     justify-content: center;
     margin-top: 50px;
+  }
+  .studentUsername,.studentPass{
+    margin-top: 10px;
+    border-style: none;
+    border-radius: 8px;
+    color:green;
+    font-size: 20px;
+  }
+  #studentLogin-btn{
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    border-color: yellow;
+    background-color: green;
+    color:yellow;
+  }
+  .teacherUsername,.teacherPass{
+    margin-top: 10px;
+    border-style: none;
+    border-radius: 8px;
+    color:green;
+    font-size: 20px;
+  }
+  #teacherLogin-btn{
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    border-color: yellow;
+    background-color: green;
+    color:yellow;
+  }
+  .register-link,.copyright-link{
+    color: yellow;
+    text-decoration: none;
   }
