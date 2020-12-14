@@ -1,13 +1,12 @@
 ## v0.5.0
 
-### index.html 
+### index.html
 
 - rename login.html to index.html
 
 ### createQuestion.html | NEW
 
 - rename index.html(december 12 2020) to createQuestion.html
-
 
 ## v0.4.1
 
@@ -22,8 +21,6 @@
 ### login.js | NEW
 
 - Create login.js.
-
-
 
 ## v0.4.0
 
@@ -41,8 +38,6 @@
 
 - Create register.html.
 
-
-
 ## v0.3.0
 
 ### index.html:
@@ -52,7 +47,6 @@
 ### app.js:
 
 - Displays data from Local storage.
-
 
 ## v0.2.0
 
