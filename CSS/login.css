@@ -134,6 +134,7 @@
   .teacher-front {
     background-image: url("image/teacherFlip.png");
     background-size: 100%;
+    background-repeat: no-repeat;
  
   }
   
@@ -173,7 +174,7 @@
   .student-front {
     background-image: url("image/studentFlip.png");
     background-size: 100%;
-  
+    background-repeat: no-repeat;
   }
   
 
