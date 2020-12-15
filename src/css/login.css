@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+
 }
 
 body {
@@ -57,8 +58,10 @@ a {
 	margin-top: 15px;
 	font-size: 20px;
 	font-weight: bold;
-	position: absolute;
-	right: 10px;
+position:absolute;
+top: 0px;
+	right: 5px;
+
 	border-style: solid;
 	border-color: yellow;
 	border-radius: 20px;
@@ -126,10 +129,6 @@ a {
 	color: darkgreen;
 }
 
-.flipCards {
-	display: flex;
-	justify-content: space-evenly;
-}
 
 .teacher-stn {
 	background-color: transparent;
@@ -140,7 +139,8 @@ a {
 }
 
 .teacher-inner {
-	position: relative;
+  
+	position:relative;
 	width: 100%;
 	height: 100%;
 	text-align: center;
@@ -150,7 +150,9 @@ a {
 
 .teacher-front,
 .teacher-back {
-	position: absolute;
+	display:flex;
+  justify-content:center;
+  align-item:center;
 	width: 100%;
 	height: 100%;
 	-webkit-backface-visibility: hidden;
@@ -272,18 +274,16 @@ a {
 	font-weight: bolder;
 	font-family: cursive;
 	color: darkgreen;
-	position: absolute;
-	top: 520px;
-	right: 195px;
+	display:flex;
+	justify-content:center;
 }
 
 .teacherFlip-description {
 	font-weight: bolder;
 	font-family: cursive;
 	color: darkgreen;
-	position: absolute;
-	top: 520px;
-	left: 220px;
+	display:flex;
+	justify-content:center;
 }
 
 .socialMedia-stn {
@@ -305,3 +305,14 @@ a {
 	font-size: 18px;
 	color: yellow;
 }
+.flipCards-stn{
+  display:flex;
+  justify-content:center;
+  align-item:center;
+}
+
+
+
+
+
+
