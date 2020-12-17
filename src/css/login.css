@@ -299,11 +299,10 @@ margin-top:30px;
 	font-size: 18px;
 	color: yellow;
 }
-.flipCards{
+.flipCards-stn{
   display:flex;
   justify-content:center;
- flex-wrap:wrap;
- 
+  align-item:center;
 }
 
 hr{
