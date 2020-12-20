@@ -6,6 +6,7 @@
   align-item:center;
 }
 .login-form{
+  border-radius:5px;
   border-style:solid;
   border-color:green;
   background-color:LightGreen;
@@ -32,7 +33,7 @@
   text-decoration:none;
 }
 #terms-link1{
-  margin-left:15px;
+  margin-left:12px;
   color:Green;
   margin-right:1px;
   text-decoration:none;
@@ -43,6 +44,9 @@
   text-decoration:none;
 }
 .signUp-stn{
+  padding-top:5px;
+  padding-bottom:5px;
+  border-radius:3px;
   border-style:solid;
   width:300px;
   margin-top:20px;
