@@ -125,7 +125,7 @@ margin-top:230px;
 .teacher-stn {
 	background-color: transparent;
 	width: 500px;
-	height: 300px;
+	height: 320px;
 	border: 1px solid #f1f1f1;
 	perspective: 1000px;
 }
@@ -165,7 +165,7 @@ margin-top:230px;
   margin-top:10px;
 	background-color: transparent;
 	width: 500px;
-	height: 300px;
+	height: 320px;
 	border: 1px solid #f1f1f1;
 	perspective: 1000px;
 }
@@ -301,8 +301,15 @@ input{
 }
 
 hr{
-  margin-bottom:30px
+  margin-bottom:18px
   
+}
+select{
+  background-color:white;
+  width:280px;
+  margin-top:20px;
+  border-radius:10px;
+  font-size:18px;
 }
 
 

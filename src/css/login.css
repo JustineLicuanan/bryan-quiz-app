@@ -94,3 +94,8 @@ p{
 a{
   color:blue;
 }
+
+select{
+  color:Yellow;
+  background-color:green;
+}
