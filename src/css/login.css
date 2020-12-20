@@ -1,0 +1,23 @@
+.heading-quizsu{
+  color:green;
+  font-family:cursive;
+  display:flex;
+  justify-content:center;
+  align-item:center;
+}
+.login-form{
+  border-style:solid;
+  border-color:green;
+  background-color:LightGreen;
+  height:200px;
+  width:300px;
+  display:flex;
+  justify-content:center;
+  align-item:center;
+}
+#signIn-btn{
+  border-radius: 8px;
+	border-color: white;
+	background-color: green;
+	color: White;
+}
