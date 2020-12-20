@@ -8,6 +8,7 @@
 }
 .login-form{
   border-radius:5px;
+  border-width:thin;
   border-style:solid;
   border-color:green;
   background-color:LightGreen;
@@ -49,6 +50,7 @@
 .signUp-stn{
   padding-top:5px;
   padding-bottom:5px;
+  border-width:thin;
   border-radius:8px;
   border-style:solid;
   width:300px;
@@ -78,6 +80,7 @@ h2{
 }
 input{
   color:Green;
+  border-width:thin;
   border-style:solid;
   font-size:18px;
   border-color:green;
