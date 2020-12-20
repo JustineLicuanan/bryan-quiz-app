@@ -1,4 +1,7 @@
 ## v0.5.1
+###register.css
+-rename login.css to register.css
+
 ### createQ.css | NEW
 
 - Create createQ.css

@@ -52,7 +52,7 @@ a {
 	width: 100%;
 }
 
-#signUp-btn {
+#signIn-btn {
 	margin-top: 15px;
 	font-size: 20px;
 	font-weight: bold;
@@ -68,7 +68,7 @@ top: 0px;
 	color: yellow;
 }
 
-#signUp-btn:hover {
+#signIn-btn:hover {
 	background-color: darkgreen;
 }
 
@@ -218,16 +218,22 @@ margin-top:30px;
 	margin-top: 10px;
 }
 
-.studentUsername,
-.studentPass {
+.register-form{
 	margin-top: 10px;
 	border-style: none;
 	border-radius: 8px;
 	color: green;
 	font-size: 20px;
 }
+input{
+  margin-top: 10px;
+	border-style: None;
+	border-radius: 8px;
+	color: green;
+	font-size: 20px;
+}
 
-#studentLogin-btn {
+#studentSignUp-btn {
 	margin-top: 10px;
 	font-size: 20px;
 	border-radius: 8px;
@@ -236,16 +242,7 @@ margin-top:30px;
 	color: yellow;
 }
 
-.teacherUsername,
-.teacherPass {
-	margin-top: 10px;
-	border-style: none;
-	border-radius: 8px;
-	color: green;
-	font-size: 20px;
-}
-
-#teacherLogin-btn {
+#teacherSignUp-btn {
 	margin-top: 10px;
 	font-size: 20px;
 	border-radius: 8px;
@@ -254,7 +251,7 @@ margin-top:30px;
 	color: yellow;
 }
 
-.register-link,
+.login-link,
 .copyright-link {
 	color: yellow;
 	text-decoration: none;
