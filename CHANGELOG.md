@@ -1,4 +1,7 @@
 ## v0.5.1
+###login.html
+-rename register.html to login.html
+
 ###register.css
 -rename login.css to register.css
 
