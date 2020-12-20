@@ -9,15 +9,73 @@
   border-style:solid;
   border-color:green;
   background-color:LightGreen;
-  height:200px;
+  height:250px;
   width:300px;
   display:flex;
   justify-content:center;
   align-item:center;
 }
 #signIn-btn{
-  border-radius: 8px;
-	border-color: white;
+  margin-top:10px;
+ margin-bottom:10px
+  font-size:20px;
+	border-style:none;
+	border-radius:8px;
+	padding:5px;
 	background-color: green;
 	color: White;
+	width:100%;
+}
+#terms-link{
+  color:Green;
+  margin-right:1px;
+  text-decoration:none;
+}
+#terms-link1{
+  margin-left:15px;
+  color:Green;
+  margin-right:1px;
+  text-decoration:none;
+}
+#contact-link{
+  color:DarkGreen;
+  margin-right:1px;
+  text-decoration:none;
+}
+.signUp-stn{
+  border-style:solid;
+  width:300px;
+  margin-top:20px;
+  border-color:green; 
+  display:flex;
+  justify-content:center;
+  align-item:center;
+}
+#signUp-link{
+  text-decoration:none;
+}
+#forgotpass-link{
+  text-decoration:none;
+}
+.footer-links{
+  margin-top:50px;
+}
+h2{
+  color:green;
+  margin-left:60px;
+}
+.signIn-stn{
+  display:flex;
+  justify-content:center;
+ align-item:center; 
+}
+input{
+  border-style:solid;
+  font-size:18px;
+  border-color:green;
+  border-radius:5px;
+}
+
+p{
+  color:DarkGreen;
 }
