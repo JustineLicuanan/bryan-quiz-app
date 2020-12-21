@@ -309,3 +309,8 @@ select {
 	border-radius: 10px;
 	font-size: 18px;
 }
+
+.br{
+  display:flex;
+  justify-content:center;
+}
