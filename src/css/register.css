@@ -125,6 +125,10 @@ a {
 	color: darkgreen;
 }
 
+.teacher-outer {
+	margin: 10px;
+}
+
 .teacher-stn {
 	background-color: pink;
 	width: 320px;
@@ -162,8 +166,11 @@ a {
 	transform: rotateY(180deg);
 }
 
+.student-outer {
+	margin: 10px;
+}
+
 .student-stn {
-	margin-top: 10px;
 	background-color: LightGray;
 	width: 320px;
 	height: 320px;
@@ -294,9 +301,10 @@ input {
 }
 .flipCards {
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
+	height: 100%;
 }
 
 hr {
@@ -310,7 +318,7 @@ select {
 	font-size: 18px;
 }
 
-.br{
-  display:flex;
-  justify-content:center;
+.br {
+	display: flex;
+	justify-content: center;
 }
