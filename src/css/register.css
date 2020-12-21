@@ -132,7 +132,7 @@ a {
 .teacher-stn {
 	background-color: pink;
 	width: 320px;
-	height: 320px;
+	height: 350px;
 	perspective: 1000px;
 }
 
@@ -173,7 +173,7 @@ a {
 .student-stn {
 	background-color: LightGray;
 	width: 320px;
-	height: 320px;
+	height: 350px;
 	perspective: 1000px;
 }
 
