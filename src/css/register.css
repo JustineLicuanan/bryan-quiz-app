@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0px;
 	box-sizing: border-box;
-
 }
 
 body {
@@ -14,6 +13,11 @@ input[type='text'],
 button {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
 		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button {
+	padding: 5px;
+	cursor: pointer;
 }
 
 a {
@@ -44,7 +48,7 @@ a {
 }
 
 .navBar {
-	position:relative;
+	position: relative;
 	border-style: solid;
 	border-color: green;
 	background-color: green;
@@ -56,8 +60,8 @@ a {
 	margin-top: 15px;
 	font-size: 20px;
 	font-weight: bold;
-position:absolute;
-top: 0px;
+	position: absolute;
+	top: 0px;
 	right: 5px;
 
 	border-style: solid;
@@ -73,7 +77,7 @@ top: 0px;
 }
 
 #teacher-btn {
-	margin-top:230px;
+	margin-top: 230px;
 	border-radius: 20px;
 	border-color: yellow;
 	color: yellow;
@@ -83,7 +87,7 @@ top: 0px;
 }
 
 #student-btn {
-margin-top:230px;
+	margin-top: 230px;
 	border-radius: 20px;
 	border-color: yellow;
 	color: yellow;
@@ -121,7 +125,6 @@ margin-top:230px;
 	color: darkgreen;
 }
 
-
 .teacher-stn {
 	background-color: transparent;
 	width: 500px;
@@ -131,8 +134,7 @@ margin-top:230px;
 }
 
 .teacher-inner {
-  
-	position:relative;
+	position: relative;
 	width: 100%;
 	height: 100%;
 	text-align: center;
@@ -142,7 +144,7 @@ margin-top:230px;
 
 .teacher-front,
 .teacher-back {
-  position: absolute;
+	position: absolute;
 	width: 100%;
 	height: 100%;
 	-webkit-backface-visibility: hidden;
@@ -162,7 +164,7 @@ margin-top:230px;
 }
 
 .student-stn {
-  margin-top:10px;
+	margin-top: 10px;
 	background-color: transparent;
 	width: 500px;
 	height: 320px;
@@ -201,7 +203,7 @@ margin-top:230px;
 }
 
 .footer-stn {
-margin-top:30px;
+	margin-top: 30px;
 	border-style: solid;
 	border-color: green;
 	background-color: green;
@@ -218,15 +220,15 @@ margin-top:30px;
 	margin-top: 10px;
 }
 
-.register-form{
+.register-form {
 	margin-top: 10px;
 	border-style: none;
 	border-radius: 8px;
 	color: green;
 	font-size: 20px;
 }
-input{
-  margin-top: 10px;
+input {
+	margin-top: 10px;
 	border-style: None;
 	border-radius: 8px;
 	color: green;
@@ -261,18 +263,16 @@ input{
 	font-weight: bolder;
 	font-family: cursive;
 	color: darkgreen;
-	display:flex;
-	justify-content:center;
-	
+	display: flex;
+	justify-content: center;
 }
 
 .teacherFlip-description {
-  
 	font-weight: bolder;
 	font-family: cursive;
 	color: darkgreen;
-	display:flex;
-	justify-content:center;
+	display: flex;
+	justify-content: center;
 }
 
 .socialMedia-stn {
@@ -294,26 +294,20 @@ input{
 	font-size: 18px;
 	color: yellow;
 }
-.flipCards-stn{
-  display:flex;
-  justify-content:center;
-  align-item:center;
+.flipCards {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-hr{
-  margin-bottom:18px
-  
+hr {
+	margin-bottom: 18px;
 }
-select{
-  background-color:white;
-  width:272px;
-  margin-top:20px;
-  border-radius:10px;
-  font-size:18px;
+select {
+	background-color: white;
+	width: 272px;
+	margin-top: 20px;
+	border-radius: 10px;
+	font-size: 18px;
 }
-
-
-
-
-
-
